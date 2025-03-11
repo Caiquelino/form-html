@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+
+    <form>
+      <label for="">Nome Completo</label><br>
+      <input type="text" name="nome" id="nome"><br>
+
+      <label for="">Usuário</label><br>
+      <input type="text" name="usuario" id="usuario"><br>
+
+      <label for="">Senha</label><br>
+      <input type="password" name="senha" id="senha"><br>
+
+      <label for="">Data de Nascimento</label><br>
+      <input type="date" name="dataNascimento" id="dataNascimento"><br>
+
+      <label for="">Comentários</label><br>
+      <textarea name="comentarios" rows="5" cols="60"></textarea>
+
+      <h2>Camisa:</h2>
+      <label for="">Selecione a cor:</label>
+      <input type="color" name="corCamisa" id="corCamisa">
+
+      <h2>Endereço:</h2>
+      <hr>
+      <select name="estado" id="estado">Selecione o Estado
+        <option value="ceara">Ceará</option>
+        <option value="saopaulo">São Paulo</option>
+        <option value="riojaneiro">Rio de Janeiro</option>
+        <option value="minasgerais">Minas Gerais</option>
+        <option value="riograndenorte">Rio Grande do Norte</option>
+      </select>
+    </form>
+</body>
+</html>
