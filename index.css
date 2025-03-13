@@ -14,12 +14,13 @@ body{
     align-items: center; /*posiciona no centro na vertical */
 }
 
-form{
+form {
     background-color: rgb(214, 214, 214);
     width: 500px;
     border: 1px solid #000000;
     border-radius: 10px;
     padding: 16px;
+    text-align: center;
 
     & h1, & h2{
         color: blue;
@@ -42,6 +43,13 @@ form{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 16px;
+    }
+
+    & button{
+        background-color: rgb(175, 175, 247);
+        font-size: 20px;
+        border: 1px solid grey;
+        border-radius: 5px;
     }
     
 
